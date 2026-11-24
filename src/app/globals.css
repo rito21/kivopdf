@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+:root {
+  --brand-accent: #4338CA;
+  --brand-accent-hover: #3730A3;
+  --canvas-bg: #FAFAF9;
+  --surface: #FFFFFF;
+  --border-subtle: #E2E8F0;
+  --text-primary: #0F172A;
+  --text-secondary: #334155;
+  --text-muted: #64748B;
+  --dark-surface: #0F172A;
+}
+
+body {
+  background-color: var(--canvas-bg);
+  color: var(--text-primary);
+  font-family: "Segoe UI", system-ui, -apple-system, Arial, sans-serif;
+  font-variant-numeric: lining-nums;
+  -webkit-font-smoothing: antialiased;
+}
+
+.hero-pattern {
+  background-color: #FAFAF9;
+}
